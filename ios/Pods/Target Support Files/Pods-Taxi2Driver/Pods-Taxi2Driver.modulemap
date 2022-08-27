@@ -1,0 +1,6 @@
+module Pods_Taxi2Driver {
+  umbrella header "Pods-Taxi2Driver-umbrella.h"
+
+  export *
+  module * { export * }
+}

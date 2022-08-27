@@ -1,0 +1,160 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.taxidriver.hassmiou"
+4    android:versionCode="4194308"
+5    android:versionName="4.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:6:5-81
+13-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:7:5-64
+14-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:7:22-62
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:8:5-80
+15-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:8:22-78
+16
+17    <!-- Local Push notification -->
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:11:5-66
+18-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:11:22-63
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:12:5-80
+19-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:12:22-78
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->[com.facebook.flipper:flipper:0.54.0] /Users/sd/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
+20-->[com.facebook.flipper:flipper:0.54.0] /Users/sd/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+21-->[:react-native-community_netinfo] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+21-->[:react-native-community_netinfo] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.android.gms:play-services-iid:17.0.0] /Users/sd/.gradle/caches/transforms-2/files-2.1/61e3e279020c351517b511e7d56d43f0/play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+22-->[com.google.android.gms:play-services-iid:17.0.0] /Users/sd/.gradle/caches/transforms-2/files-2.1/61e3e279020c351517b511e7d56d43f0/play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Local Push notification -->
+23-->[com.android.installreferrer:installreferrer:1.1.2] /Users/sd/.gradle/caches/transforms-2/files-2.1/744c11701aa7144a8d6a8e89bcdad6bd/installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+23-->[com.android.installreferrer:installreferrer:1.1.2] /Users/sd/.gradle/caches/transforms-2/files-2.1/744c11701aa7144a8d6a8e89bcdad6bd/installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+24    <application
+24-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:14:5-40:19
+25        android:name="com.taxidriver.hassmiou.MainApplication"
+25-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:15:7-38
+26        android:allowBackup="false"
+26-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:19:7-34
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.5.0] /Users/sd/.gradle/caches/transforms-2/files-2.1/74e98cbf801ea5c023e47892d0f0c9e7/core-1.5.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:17:7-41
+30        android:label="@string/app_name"
+30-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:16:7-39
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:18:7-52
+32        android:theme="@style/AppTheme"
+32-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:20:7-38
+33        android:usesCleartextTraffic="true" >
+33-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:21:7-42
+34        <activity
+34-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:22:7-32:18
+35            android:name="com.taxidriver.hassmiou.MainActivity"
+35-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:23:9-37
+36            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+36-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:25:9-86
+37            android:label="@string/app_name"
+37-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:24:9-41
+38            android:launchMode="singleTask"
+38-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:26:9-40
+39            android:windowSoftInputMode="adjustResize" >
+39-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:27:9-51
+40            <intent-filter>
+40-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:28:9-31:25
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:29:13-65
+41-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:29:21-62
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:30:13-73
+43-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:30:23-70
+44            </intent-filter>
+45        </activity>
+46        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+46-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:33:7-84
+46-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:33:17-81
+47
+48        <meta-data
+48-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:35:5-37:41
+49            android:name="com.google.android.geo.API_KEY"
+49-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:36:13-58
+50            android:value="KEY GOOGLE" />
+50-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:37:13-39
+51        <!-- You will also only need to add this uses-library tag -->
+52        <uses-library
+52-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:39:9-87
+53            android:name="org.apache.http.legacy"
+53-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:39:23-60
+54            android:required="false" />
+54-->/Users/sd/workspace/all-projects/generalDriveFront/android/app/src/main/AndroidManifest.xml:39:61-85
+55
+56        <provider
+56-->[:react-native-image-picker] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+57            android:name="com.imagepicker.ImagePickerProvider"
+57-->[:react-native-image-picker] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+58            android:authorities="com.taxidriver.hassmiou.imagepickerprovider"
+58-->[:react-native-image-picker] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-71
+59            android:exported="false"
+59-->[:react-native-image-picker] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+60            android:grantUriPermissions="true" >
+60-->[:react-native-image-picker] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+61            <meta-data
+61-->[:react-native-image-picker] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:70
+62                android:name="android.support.FILE_PROVIDER_PATHS"
+62-->[:react-native-image-picker] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+63                android:resource="@xml/imagepicker_provider_paths" />
+63-->[:react-native-image-picker] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+64        </provider>
+65        <provider
+65-->[:react-native-webview] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+66            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+66-->[:react-native-webview] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+67            android:authorities="com.taxidriver.hassmiou.fileprovider"
+67-->[:react-native-webview] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+68            android:exported="false"
+68-->[:react-native-webview] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+69            android:grantUriPermissions="true" >
+69-->[:react-native-webview] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+70            <meta-data
+70-->[:react-native-image-picker] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:70
+71                android:name="android.support.FILE_PROVIDER_PATHS"
+71-->[:react-native-image-picker] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+72                android:resource="@xml/file_provider_paths" />
+72-->[:react-native-image-picker] /Users/sd/workspace/all-projects/generalDriveFront/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+73        </provider>
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:17.0.0] /Users/sd/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:17.0.0] /Users/sd/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:17.0.0] /Users/sd/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:17.0.0] /Users/sd/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+79
+80        <meta-data
+80-->[com.google.android.gms:play-services-basement:17.0.0] /Users/sd/.gradle/caches/transforms-2/files-2.1/08eabdaaebc28cd0e61b0af50e08cff1/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+81            android:name="com.google.android.gms.version"
+81-->[com.google.android.gms:play-services-basement:17.0.0] /Users/sd/.gradle/caches/transforms-2/files-2.1/08eabdaaebc28cd0e61b0af50e08cff1/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+82            android:value="@integer/google_play_services_version" />
+82-->[com.google.android.gms:play-services-basement:17.0.0] /Users/sd/.gradle/caches/transforms-2/files-2.1/08eabdaaebc28cd0e61b0af50e08cff1/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+83    </application>
+84
+85</manifest>

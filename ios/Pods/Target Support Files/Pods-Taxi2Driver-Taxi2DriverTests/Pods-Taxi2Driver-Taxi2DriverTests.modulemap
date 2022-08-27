@@ -1,0 +1,6 @@
+module Pods_Taxi2Driver_Taxi2DriverTests {
+  umbrella header "Pods-Taxi2Driver-Taxi2DriverTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
